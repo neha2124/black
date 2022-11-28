@@ -1,0 +1,85 @@
+body{
+    /* Created with https://www.css-gradient.com */
+/* Created with https://www.css-gradient.com */
+background: #1F1B2D;
+background: -webkit-linear-gradient(top left, #1F1B2D, #F446ED);
+background: -moz-linear-gradient(top left, #1F1B2D, #d07acd);
+background: linear-gradient(to bottom right, #7a60d7, #c082bd);
+color: aliceblue;
+width: 96vw;
+height: 96vh;
+/* overflow: hidden; */
+}
+.game-head{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.scores{
+    display: flex;
+    
+    justify-content: space-evenly;
+    
+    
+    z-index: 1;
+}
+.p-score,.c-score{
+    text-align: center;
+    font-size: 1.5em;
+}
+.moves,.moves-left{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.wrapper{
+   display: flex;
+   justify-content: center;
+
+}
+.choice{
+    height: 50px;
+    width: 70px;
+    border-radius: 20px;
+
+
+}
+.rps{
+    border-radius: 50px;
+    border-color: aquamarine;
+    background-color: rgb(127, 185, 255);
+    margin: 50px;
+    padding: 20px;
+    cursor: pointer;
+}
+.rps:hover{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+transform: translateX(5px);
+}
+.message{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.last-message{
+    text-align: center;
+    font-size:  2rem;
+    margin: 30px;
+    font-weight: 800;
+    text-transform: capitalize;
+    /* display: none; */
+}
+.reload{
+    /* text-align: center; */
+    padding: 20px;
+    font-size: 1.3em;
+    border-radius: 20px;
+    background-color: transparent;
+    box-shadow: 10px 5px 5px .3px rgba(0,0,0,0.75);
+    margin-left: 45%;
+    display: none;
+}
+
